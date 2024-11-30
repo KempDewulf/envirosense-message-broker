@@ -1,6 +1,6 @@
 # RabbitMQ with MQTT Support
 
-This repository contains a Docker-based setup for RabbitMQ with MQTT protocol enabled. This setup is suitable for local development and testing IoT applications using RabbitMQ as a message broker.
+This repository contains a Docker-based setup for RabbitMQ with MQTT protocol enabled. This broker will be used for communication between server and Iot device.
 
 ---
 
