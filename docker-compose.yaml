@@ -11,4 +11,7 @@ services:
     volumes:
       - ./enabled_plugins:/etc/rabbitmq/enabled_plugins # Enable plugins
       - ./rabbitmq.conf:/etc/rabbitmq/rabbitmq.conf
+      - ./certs/ca.crt:/etc/ssl/rmq-cacert.pem:ro
+      - ./certs/server.crt:/etc/ssl/rmq-cert.pem:ro
+      - ./certs/server.key:/etc/ssl/rmq-key.pem:ro
     restart: always
