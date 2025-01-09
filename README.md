@@ -24,7 +24,7 @@ This repository contains a Docker-based setup for RabbitMQ with MQTT protocol en
 1. **Clone the Repository**:
    ```bash
    git clone git@gitlab.ti.howest.be:ti/2024-2025/s5/ccett/projects/group-14/rabbitmq-broker.git
-   cd git@gitlab.ti.howest.be:ti/2024-2025/s5/ccett/projects/group-14/rabbitmq-broker.git
+   cd rabbitmq-broker
    ```
 2. **Start the RabbitMQ Container**:
    ```bash
