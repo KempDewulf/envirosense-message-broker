@@ -38,4 +38,4 @@ This repository contains a Docker-based setup for RabbitMQ with MQTT protocol en
     - MQTT Protocol: localhost:1883 using an MQTT client
 4. **Optionally:**
 
-   Make seperate Users  on the Management UI for IoT and Server with required permissions
+   Make seperate Users in the Management UI for IoT and Server with required permissions
